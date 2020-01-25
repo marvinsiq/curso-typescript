@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "module": "System",
+        "strictNullChecks": true,
+        "allowJs": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
