@@ -19,8 +19,10 @@ Será gerado o arquivo package.json
 
 * Crie a seguinte estrutura de pastas
 
+```
 - app
 -- ts
+```
 
 Nossos arquivos TypeScript serão salvos dentro do diretório app/ts
 
@@ -54,15 +56,19 @@ As páginas html deverão referenciar os arquivos js.
 
 Obs.: É possível criar o arquivo `tsconfig.json` "padrão" utilizando o comando:
 
-````tsc --init ```
+```
+tsc --init
+```
 
 ### Transpilando o projeto
 
 Uma vez criado o arquivo `tsconfig.json` basta digitar, da raiz do projeto, o comando
 
-``` tsc ``
+```
+tsc 
+```
 
-Isso irá . O tsc irá criar a pasta js e gerará todos os arquivos js dentro dela seguindo a mesma hieranquia de diretórios da pasta ts
+O tsc irá criar a pasta js e gerará todos os arquivos javascript dentro dela seguindo a mesma hieranquia de diretórios da pasta ts
 
 #### Alterando o package.json
 
@@ -119,6 +125,7 @@ Se quisermos do lodash ou underscore acessamos
 https://www.npmjs.com/package/@types/lodash
 
 https://www.npmjs.com/package/@types/underscore
+
 Dessa forma, antes de sair buscando pela internet os arquivos tsd que precisamos, podemos tentar a sorte executando o comando:
 
 `npm install @types/nomeDaLibOuFramework --save-dev`
